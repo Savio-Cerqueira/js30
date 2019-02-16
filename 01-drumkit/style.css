@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(https://goo.gl/GYBN2W) top center;
+  background: url(https://goo.gl/8jcfxi) top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -29,7 +29,7 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(52, 25, 83, 0.554);
   text-shadow: 0 0 .5rem black;
 }
 
