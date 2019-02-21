@@ -35,6 +35,10 @@ function setDate() {
     const hoursDegrees = ((hours / 12) * 360) + 90;
     //turn it on
     hrHand.style.transform = `rotate(${hoursDegrees}deg)`;
+
+    //workaround for flickering clock turn
+    scHand.style.transform = 90 === secsDegrees ? "all 0s" : "all 0.05s";
+    mnHand.style.transform = 90 === minsDegrees ? "all 0s" : "all 0.05s";
 }
 
 setInterval(setDate, 1000);
